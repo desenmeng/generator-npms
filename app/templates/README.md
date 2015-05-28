@@ -1,2 +1,2 @@
-# generator-npms
-generator-npms
+# <%= name %>
+<%= name %>

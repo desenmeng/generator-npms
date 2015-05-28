@@ -1,29 +1,22 @@
 {
-  "name": "generator-npms",
-  "version": "0.0.1",
-  "description": "npm yeoman generator ",
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= name %>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/demohi/generator-npms.git"
+    "url": "https://github.com/<%= author %>/<%= name %>.git"
   },
   "keywords": [
-    "npm",
-    "generator",
-    "yeoman",
-    "yo",
-    "generator-npm"
+    "<%= name %>"
   ],
-  "author": "mdemo",
+  "author": "<%= author %>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/demohi/generator-npms/issues"
+    "url": "https://github.com/<%= author %>/<%= name %>/issues"
   },
-  "homepage": "https://github.com/demohi/generator-npms",
-  "dependencies": {
-    "yeoman-generator": "^0.20.1"
-  }
+  "homepage": "https://github.com/<%= author %>/<%= name %>"
 }
